@@ -50,6 +50,10 @@ h2 {
     font-size: xx-large;
     margin-bottom: 30px;}
 
+section{
+    margin-bottom: 150px;
+}
+
 .top-header{
     background-color: #245ade;
     width: 100vw;
