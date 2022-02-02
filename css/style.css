@@ -41,6 +41,14 @@ p{
     line-height: 30px;
 }
 
+main{
+    width: 60%;
+    margin: 100px auto;
+}
+
+h2 {
+    font-size: xx-large;
+    margin-bottom: 30px;}
 
 .top-header{
     background-color: #245ade;
@@ -109,3 +117,22 @@ p{
     text-decoration: none;
     margin-top: 20px;
 }
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img{
+    float: left;
+    width: 60%;
+}
+
+.text{
+    float: left;
+    width: 40%;
+    padding: 50px;
+}
+
