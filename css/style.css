@@ -4,3 +4,51 @@
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+header {
+    width: 100vw;
+    height: 40vh;
+    color: white;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+.top-header{
+    background-color: blue;
+    width: 100vw;
+    height: 5vh;
+
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.bottom-header{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
