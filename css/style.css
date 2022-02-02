@@ -52,6 +52,28 @@ h2 {
 
 section{
     margin-bottom: 150px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    line-height: 40px;
+}
+
+h3{
+    color: rgb(112, 108, 150) ;
+    font-size: 25px;
+}
+
+h4{
+    color: rgb(255, 255, 255) ;
+    display: inline-block;
+    font-size: smaller;
+
+}
+
+ul{
+    list-style-type: none;
 }
 
 .top-header{
@@ -140,3 +162,60 @@ section{
     padding: 50px;
 }
 
+.question{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100px;
+    padding: 50px;
+    font-size: larger;
+}
+
+.footer-container{ width: 60%;
+    margin: 100px auto;
+
+}
+
+.purple{
+    background-color: rgb(112, 108, 150);
+    color: white;
+}
+
+.left-section{
+    float: left;
+    margin: 50px 50px 0px 0px;
+
+}
+
+.right-section{
+    float:left;
+    margin: 50px 50px 0px 50px;
+}
+
+.left-section img{
+    width: 25px;
+}
+
+footer ul li:first-child{
+    color: rgb(112, 108, 150);
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-last-section{
+    width: 60%;
+    margin: 0px auto;
+}
+
+.subscribe{
+    width: 160px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 10px 20px 13px 900px;
+}
