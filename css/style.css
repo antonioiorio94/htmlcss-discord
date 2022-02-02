@@ -76,17 +76,19 @@ ul{
     list-style-type: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .top-header{
     background-color: #245ade;
     width: 100vw;
-    height: 5vh;
     line-height: 5vh;
 }
 
 .container{
     max-width: 1800px;
     margin: 0 auto;
-    height: 5vh;
     text-align: center;
 }
 
@@ -97,9 +99,13 @@ ul{
 
 .login{
     background-color: white;
-    color:black;
+    color: black;
     text-decoration: none;
-
+    width: 120px;
+    height: 65px;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    border-radius: 50px;
 
 }
 
@@ -150,6 +156,7 @@ ul{
     display: table;
     clear: both;
 }
+
 
 .img{
     float: left;
@@ -219,3 +226,4 @@ footer ul a{
     text-decoration: none;
     margin: 10px 20px 13px 900px;
 }
+
